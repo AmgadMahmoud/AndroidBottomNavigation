@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/mainGroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_drawer_addresses"
+            android:orderInCategory="100"
+            android:title="My addresses" />
+        <item
+            android:id="@+id/nav_drawer_offers"
+            android:orderInCategory="200"
+            android:title="Offers" />
+        <item
+            android:id="@+id/nav_drawer_help"
+            android:orderInCategory="300"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_drawer_settings"
+            android:orderInCategory="400"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_drawer_doc"
+            android:orderInCategory="500"
+            android:title="How to use" />
+        <item
+            android:id="@+id/nav_drawer_PharmRegisteration"
+            android:orderInCategory="600"
+            android:title="Register your pharmacy" />
+
+        <item
+            android:id="@+id/nav_drawer_about"
+            android:orderInCategory="700"
+            android:title="About Dawaia.com" />
+        <item
+            android:id="@+id/nav_drawer_version"
+            android:enabled="false"
+            android:orderInCategory="800"
+            android:title="Version 2.0.33" />
+    </group>
+</menu>

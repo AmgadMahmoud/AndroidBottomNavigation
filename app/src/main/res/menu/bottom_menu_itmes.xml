@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_bottom_home"
+        android:icon="@drawable/menu_home"
+        android:title="@string/nav_bottom_home" />
+    <item
+        android:id="@+id/nav_bottom_orders"
+        android:icon="@drawable/menu_medicine"
+        android:title="@string/nav_bottom_orders" />
+    <item
+        android:id="@+id/nav_bottom_bookings"
+        android:icon="@drawable/menu_doctor"
+        android:title="@string/nav_bottom_bookings" />
+    <item
+        android:id="@+id/nav_bottom_more"
+        android:icon="@drawable/menu_more"
+        android:title="@string/nav_bottom_more" />
+</menu>
